@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +10,24 @@
     <title>Prueba</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Encuentra tu libro</a>
+            <a href="#">Biblioteca</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
     <section>
         <div class="buscador">
             <input type="text" name="buscador" id="busqueda">
-            <label for="buscador">Buscar</label>
+            <input type="button" id="btn-buscar" onclick="extraeDatos()" value="buscar">
+        </div>
+        <div id="libros">
+            
         </div>
     </section>
     <footer></footer>
 </body>
+
 </html>

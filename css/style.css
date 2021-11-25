@@ -1,0 +1,22 @@
+body{
+    background-color: #737373;
+    /* amarillo : #ffde59 */
+    /* azul: #c0bddd */
+    /* gris: #a6a6a6 */
+}
+
+.buscador{
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+header a{
+    padding: 30px;
+}

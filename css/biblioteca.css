@@ -1,0 +1,83 @@
+.imagen2{
+    z-index: -1;
+    width:80%;
+    height: 650px;
+    margin: 0 auto;
+    background-image: url("../img/biblio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+section{
+    width: 100%;
+    margin-top: 10%;
+}
+
+h1{
+    font-family: 'DM Serif Display', serif;
+    z-index: 1;
+    font-size: 150px;
+    width: 60%;
+    line-height : 155px;
+    text-align: end;
+    position: absolute;
+    top: 0%;
+    left: 27%;
+}
+
+.mg{
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    width: 80%;
+    height: 800px;
+    overflow: scroll;
+
+}
+
+.cozas{
+    margin: 1%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.cozas img{
+    margin-top: 2%;
+    width: 90px;
+    height: 150px;
+}
+
+.cozas p{
+    margin-top: 6%;
+    font-size: 22px;
+}
+.cozas input{
+    margin-top: 6%;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #1a498b;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.cozas input:hover{
+    color:#1a498b;
+    background-color: #1a498b00;
+    border: 2px solid #1a498b;
+  }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Búsqueda</title>
+    <link rel="stylesheet" href="../css/cssIndex.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="izq"><a href="../index.html">Logo</a></div>
+            <div class="derecha">
+                <a class="aqui" href="./buscador.html">Buscar</a>
+                <a href="./biblioteca.html">Biblioteca</a>
+                <a href="./registro.html">Registro</a>
+                <a href="#" id="carrito">Cesta</a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <form class="buscador">
+            <input type="text" placeholder="Busca tu libro..." onkeypress="pulsar(event)" name="buscador" id="busqueda">
+            <label for="name" class="labeltext">Busca tu libro:</label>
+        </form>
+        <div class="libros" id="libros">
+        </div>
+    </section>
+    <footer> </footer>
+    <div class="carro" id="carro" data-aos="fade-in" data-aos-delay="1300">
+        <h2>Tu cesta</h2>
+        <p class="total">
+            <strong>TOTAL: 0.00 €</strong>
+            <br><br><input type='button' onclick="limpiarCarrito()" class='limpiar' id='limpiar' value='Vaciar'>
+        </p>
+    </div>
+    <div class="popUp" id="popUp">
+
+    </div>
+    <script src="../js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

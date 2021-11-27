@@ -1,0 +1,130 @@
+{
+    "libros": [
+        {
+            "autor": "J.K Rowling",
+            "titulo": "Harry Potter y la piedra filosofal",
+            "fecha": "1997",
+            "imagen": "https://static.wikia.nocookie.net/esharrypotter/images/9/9a/Harry_Potter_y_la_Piedra_Filosofal_Portada_Espa%C3%B1ol.PNG/revision/latest?cb=20151020165725"
+        },
+        {
+            "autor": "J.K Rowling",
+            "titulo": "Harry Potter y la cámara secreta",
+            "fecha": "1998",
+            "imagen": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/482498_00_1.jpg"
+        },
+        {
+            "autor": "J.K Rowling",
+            "titulo": "Harry Potter y el prisionero de Azkaban",
+            "fecha": "1999",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/81k9yx9N5+L.jpg"
+        },
+        {
+            "autor": "J.K Rowling",
+            "titulo": "Harry Potter y el cáliz de fuego",
+            "fecha": "2000",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/81llGKelLvL.jpg"
+        },
+        {
+            "autor": "J.K Rowling",
+            "titulo": "Harry Potter y la orden del fénix",
+            "fecha": "2003",
+            "imagen": "https://static.wikia.nocookie.net/esharrypotter/images/3/37/Harry_Potter_y_la_Orden_del_F%C3%A9nix_portada_versi%C3%B3n_2015.jpg/revision/latest?cb=20171206190125"
+        },
+        {
+            "autor": "J.K Rowling",
+            "titulo": "Harry Potter y el misterio del principe",
+            "fecha": "2005",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/91B4rhtUevL.jpg"
+        },
+        {
+            "autor": "J.K Rowling",
+            "titulo": "Harry Potter y las reliquias de la muerte",
+            "fecha": "2007",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/91xWR6oJz9L.jpg"
+        },
+        {
+            "autor": "J.R.R Tolkien",
+            "titulo": "El señor de los anillos: La comunidad del anillo",
+            "fecha": "1954",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/816QLZKwmIL.jpg"
+        },
+        {
+            "autor": "J.R.R Tolkien",
+            "titulo": "El señor de los anillos: Las dos torres",
+            "fecha": "1954",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/81U5RVCuTHL.jpg"
+        },
+        {
+            "autor": "J.R.R Tolkien",
+            "titulo": "El señor de los anillos: El retorno del rey",
+            "fecha": "1955",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/711htm1Ve+L.jpg"
+        },
+        {
+            "autor": "Brandon Sanderson",
+            "titulo": "Nacidos de la bruma: El imperio final",
+            "fecha": "2006",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/81G6v5bXYHL.jpg"
+        },
+        {
+            "autor": "Brandon Sanderson",
+            "titulo": "Nacidos de la bruma: El pozo de la ascensión",
+            "fecha": "2007",
+            "imagen": "https://kbimages1-a.akamaihd.net/9dd49539-6aa4-4ee3-a0bc-ea7818c2ed5b/1200/1200/False/trilogia-nacidos-de-la-bruma-mistborn-pack-con-el-imperio-final-el-pozo-de-la-ascension-el-heroe-de-las-eras.jpg"
+        },
+        {
+            "autor": "Brandon Sanderson",
+            "titulo": "Nacidos de la bruma: El héroe de las eras",
+            "fecha": "2008",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/81c5VPXgDqL.jpg"
+        },
+        {
+            "autor": "Brandon Sanderson",
+            "titulo": "Archivo de las tormentas: El camino de los reyes",
+            "fecha": "2010",
+            "imagen": "https://4.bp.blogspot.com/-JAKDj_0VlFo/WoxKToRfV2I/AAAAAAAAT14/jMb1KOBjD_oY4cmY-zrP21h-K6c9mZ10QCLcBGAs/s1600/19556g.jpg"
+        },
+        {
+            "autor": "Brandon Sanderson",
+            "titulo": "Archivo de las tormentas: Palabras radiantes",
+            "fecha": "2014",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/91iLAw42-GL.jpg"
+        },
+        {
+            "autor": "Brandon Sanderson",
+            "titulo": "Archivo de las tormentas: Juramentada",
+            "fecha": "2017",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/91CqGHNvtbL.jpg"
+        },
+        {
+            "autor": "Brandon Sanderson",
+            "titulo": "Archivo de las tormentas: El ritmo de la guerra",
+            "fecha": "2020",
+            "imagen": "https://comicstores.es/imagenes_grandes/9788417/978841734793.JPG"
+        },
+        {
+            "autor": "Will Smith",
+            "titulo": "Will",
+            "fecha": "2021",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/91PpDVWjhLL.jpg"
+        },
+        {
+            "autor": "Brian Cox",
+            "titulo": "Puttin the rabbit in the hat",
+            "fecha": "2021",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/712g0hQ+tvL.jpg"
+        },
+        {
+            "autor": "Sarag J. Maas",
+            "titulo": "House of sky and breath",
+            "fecha": "2021",
+            "imagen": "https://infoliteraria.com/wp-content/uploads/2021/09/image-2-666x1024.jpg"
+        },
+        {
+            "autor": "Brian Cox",
+            "titulo": "Puttin the rabbit in the hat",
+            "fecha": "2021",
+            "imagen": "https://images-na.ssl-images-amazon.com/images/I/712g0hQ+tvL.jpg"
+        }
+    ]
+}

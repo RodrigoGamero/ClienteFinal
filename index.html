@@ -5,29 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js"></script>
-    <title>Prueba</title>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./css/cssIndex.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- <script src="../js/script.js"></script> -->
 </head>
+
 <body>
     <header>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Encuentra tu libro</a>
-            <a href="#">Biblioteca</a>
-            <a href="#">Login</a>
+            <div class="izq"><a " href="./index.html" class="aqui">Logo</a></div>
+            <div class="derecha">
+                <a href="./web/buscador.html">Buscar</a>
+                <a href="./web/biblioteca.html">Biblioteca</a>
+                <a href="./web/registro.html">Registro</a>
+            </div>
+            
         </nav>
     </header>
     <section>
-        <div class="buscador">
-            <input type="text" name="buscador" id="busqueda">
-            <input type="button" id="btn-buscar" onclick="extraeDatos()" value="buscar">
+        <h1 data-aos="fade-left" data-aos-delay="1800">Book Store</h1>
+        <div class="about" data-aos="fade-right" data-aos-delay="1200">
+            <p><strong>About us:</strong></p>
+            <p>The book sotre Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore libero iste qui dolorum
+                doloremque, optio, .</p>
         </div>
-        <div id="libros">
-            
-        </div>
+        <div class="imagen" data-aos="zoom-in-up" data-aos-delay="800"></div>
+        <!--  -->
     </section>
     <footer></footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

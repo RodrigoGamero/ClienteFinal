@@ -66,7 +66,7 @@ form{
     width: 50%;
   }
   
-  #busqueda {
+  .busqueda {
     width: 100%;
     border: 0;
     border-bottom: 2px solid black;
@@ -78,10 +78,10 @@ form{
     transition: border-color 0.2s;
   }
   
-  #busqueda::placeholder {
+  .busqueda::placeholder {
       color: transparent;
     }
-    #busqueda::placeholder-shown ~ .form__label {
+    .busqueda::placeholder-shown ~ .form__label {
       font-size: 1.3rem;
       cursor: text;
       top: 20px;
@@ -122,3 +122,9 @@ form{
   #limpiar{
       margin-left: 3%;
   }
+
+  nav img{
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+}

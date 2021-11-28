@@ -11,21 +11,24 @@ let libreria = JSON.parse(localStorage.getItem('meGusta'));
 
 function imprimirMeGusta(){
     console.log(libreria);
-    mg.innerHTML = "";
-    for(let i = 0; i<libreria.length; i++){
-        let div = document.createElement('div');
-        div.setAttribute('class', 'cozas');
-        div.setAttribute('data-aos', 'zoom-in-left');
-        div.setAttribute('data-aos-delay', '1000');
-        let estructura = `    
-        <img src='${libreria[i].imagen}' alt="">
-        <p id='titulo'>${libreria[i].titulo}</p>
-        <p>${libreria[i].autor}</p>
-        <input type="button" onclick="eliminar(this)" value="Eliminar">`
-        div.innerHTML = estructura;
-        mg.appendChild(div);
+    if(libreria.length == 0){
+        mg.style.display = "none";
+    }else{
+        mg.innerHTML = "";
+        for(let i = 0; i<libreria.length; i++){
+            let div = document.createElement('div');
+            div.setAttribute('class', 'cozas');
+            div.setAttribute('data-aos', 'zoom-in-left');
+            div.setAttribute('data-aos-delay', '1000');
+            let estructura = `    
+            <img src='${libreria[i].imagen}' alt="">
+            <p id='titulo'>${libreria[i].titulo}</p>
+            <p>${libreria[i].autor}</p>
+            <input type="button" onclick="eliminar(this)" value="Eliminar">`
+            div.innerHTML = estructura;
+            mg.appendChild(div);
+        }
     }
-
 }
 
 function eliminar(element){

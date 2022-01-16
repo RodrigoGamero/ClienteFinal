@@ -7,7 +7,6 @@ window.onload = extraeDatos();
 
 let item, titulo, autor, publicado, enlaceLibro, imagenLibro;
 let enlacePeticion = "https://www.googleapis.com/books/v1/volumes?q=tittle:";
-let apiKey = "key=AIzaSyBD6LD3app1Bfa-Htlz1aTZulX1H7sRkvA";
 let infoLibroUlt;
 let articulos = [];
 let meGusta = [];
